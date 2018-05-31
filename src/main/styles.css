@@ -1,0 +1,17 @@
+.container {
+  float: left;
+  width: 300px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  text-align: center;
+  max-height: 700px;
+  overflow: auto;
+}
+
+.container .row {
+  border-bottom: 1px solid #ddd; 
+}
+
+.container .row.odd {
+  background-color: #fafafa 
+}
